@@ -1,6 +1,10 @@
+name: ABC
 on:
   push:
-    branches: [ "dev" ]
+    branches:
+      - master
+    paths:
+      - my-directory/**
 jobs:
   
   run-tests:
